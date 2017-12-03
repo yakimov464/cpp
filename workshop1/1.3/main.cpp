@@ -5,7 +5,6 @@
 int main()
 {
     sf::RenderWindow window(sf::VideoMode({ 800, 600 }), "1.3");
-    
     sf::Texture texture;
     texture.loadFromFile("1.3/cat.png");
     sf::Sprite sprite;
