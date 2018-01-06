@@ -36,7 +36,7 @@ int main()
         float dt = clock.restart().asSeconds();
         time = time + dt;
         float wavePhase = time * float(2 * M_PI);
-        float x = x + speedX * dt;
+        x += speedX * dt;
         float y = amplitudeY * std::sin(wavePhase / periodY);
         const sf::Vector2f offset = {x, y};
 
